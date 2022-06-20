@@ -1,0 +1,57 @@
+use('pizzeria_mongo');
+
+  db.Clientx.insertMany([
+      { id: 1, nom: 'client1', cognom: 'cognom1', address: 'adress_1', codipostal: '08100', localitat: 'localitat1', provincia: 'prov1', telefon: '123456789' },
+      { id: 2, nom: 'client2', cognom: 'cognom2', address: 'adress_2', codipostal: '08200', localitat: 'localitat2', provincia: 'prov2', telefon: '223456789' },
+      { id: 3, nom: 'client3', cognom: 'cognom3', address: 'adress_3', codipostal: '08300', localitat: 'localitat3', provincia: 'prov3', telefon: '323456789' },
+      { id: 4, nom: 'client4', cognom: 'cognom4', address: 'adress_4', codipostal: '08400', localitat: 'localitat4', provincia: 'prov4', telefon: '423456789' },
+      { id: 5, nom: 'client5', cognom: 'cognom5', address: 'adress_5', codipostal: '08500', localitat: 'localitat5', provincia: 'prov5', telefon: '523456789' }
+  ]);
+
+  db.Botiga.insertMany ([
+      {id: 1, address: 'adress1', codipostal: '08100', localitat: 'localitat1', provincia: 'provincia1'},
+      {id: 2, address: 'adress2', codipostal: '08200', localitat: 'localitat2', provincia: 'provincia2'},
+      {id: 3, address: 'adress3', codipostal: '08300', localitat: 'localitat3', provincia: 'provincia3'},
+      {id: 4, address: 'adress4', codipostal: '08400', localitat: 'localitat4', provincia: 'provincia4'},
+      {id: 5, address: 'adress5', codipostal: '08500', localitat: 'localitat5', provincia: 'provincia3'}
+  ]);
+
+  db.Localitat.insertMany([
+      { id: '', nom: 'Cardedeu', provincia: 'Barcelona'},
+      { id: '', nom: 'Port de la Serlva', provincia: 'Girona'},
+      { id: '', nom: 'Amer', provincia: 'Girona'},
+      { id: '', nom: 'Deltebre', provincia: 'Tarragona'},
+      { id: '', nom: 'Balaguer', provincia: 'Lleida'}
+  ]);
+
+  db.Provincia.insertMany([
+      { id: '1', nom: 'Barcelona'}, 
+      { id: '2', nom: 'Tarragona'}, 
+      { id: '3', nom: 'Lleida'}, 
+      { id: '4', Nom: 'Girona'}
+  ]);
+
+  db.Productes.insertMany ([
+     [
+      {Categoria1: 'pizza'},
+      {Categoria2: 'hamburguesa'},
+      {Categoria3: 'beguda'}
+     ] 
+
+    [
+      { idcategoria: '1', categoria1: 'pizza', nom: 'barbacoa', descripcio: 'descripcio1', imatge: 'imatge1', preu: 8.00},
+      { idcategoria: '2', categoria2: 'hambuguesa', nom: 'cheeseburger', descripcio: 'descripcio1', imatge: 'imatge2', preu: 10.00},
+      { idcategoria: '3', categoria3: 'beguda',nom: 'coca-cola0', descripcio: 'descripcio1', imatge: 'imatge3', preu: 9.50},
+      { idcategoria: '4', categoria1: 'pizza',nom: 'campiña', descripcio: 'descripcio1', imatge: 'imatge4', preu: 11.25},
+      { idcategoria: '5', categoria2: 'hamburguesa',nom: 'veggie', descripcio: 'descripcio1', imatge: 'imatge5', preu: 6.50} 
+    ]
+  ]);
+
+   db.Comandes.insertMany([
+      {idcomanda: ''},
+      { db.Clientx.id1, tipus_lliurament: 'Domicili', Productes: '', preutotal: "", dataHora: new Date('13/6/2022 12:35:05')},
+      { tipus_lliurament: 'Recollida', Productes: '', Preutotal: "", dataHora: new Date('13/6/2022 21:35:05')}
+   ]);
+   
+    
+Comandes: id clientx, idcomanda, Domiciliclientx, idRepartidor, id_Botiga tipus_lliurament, productes, preutotal
