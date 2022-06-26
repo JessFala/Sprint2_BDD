@@ -1,0 +1,29 @@
+[{
+  "_id": {
+    "$oid": "62b2c6a4472b2797d681f09d"
+  },
+  "address": "adress1",
+  "codipostal": "08100",
+  "localitat": "localitat1",
+  "provincia": "provincia1",
+  "empleatx": {
+    "nomicognom": "Cris C3",
+    "NIF": "78946746",
+    "telefon": "678987142",
+    "Feina": "repartidorx"
+  }
+},{
+  "_id": {
+    "$oid": "62b2c87d472b2797d681f09e"
+  },
+  "address": "adress2",
+  "codipostal": "08200",
+  "localitat": "localitat2",
+  "provincia": "provincia2",
+  "empleatx": {
+    "nomicognom": "Leyvacan",
+    "NIF": "38893412C",
+    "telefon": "612345673",
+    "Feina": "cuinerx"
+  }
+}]
