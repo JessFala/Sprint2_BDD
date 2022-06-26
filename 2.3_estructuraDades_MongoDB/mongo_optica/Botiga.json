@@ -1,0 +1,57 @@
+[{
+  "_id": {
+    "$oid": "62b88393fa325b380a6cc577"
+  },
+  "Adress": "Plaça Major, 56. 08054 Amer (Girona)",
+  "Empleatx": [
+    {
+      "id_empleatx": "001",
+      "Nom": "empleatx1",
+      "Carrec": "Venedorx"
+    },
+    {
+      "id_empleatx": "005",
+      "Nom": "empleatx5",
+      "Carrec": "Venedorx"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "62b8894afa325b380a6cc578"
+  },
+  "Adress": "Carrer gran, 97. 08045 Tarragona (Tarragona)",
+  "Empleatx": [
+    {
+      "id_empleatx": "002",
+      "Nom": "empleatx2",
+      "Carrec": "Caixerx"
+    },
+    {
+      "id_empleatx": "003",
+      "Nom": "empleatx3",
+      "Carrec": "Venedorx"
+    },
+    {
+      "id_empleatx": "004",
+      "Nom": "empleatx4",
+      "Carrec": "Venedorx"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "62b88baafa325b380a6cc579"
+  },
+  "Adress": "Plaça Major, 56. 08054 Amer (Girona)",
+  "Empleatx": [
+    {
+      "id_empleatx": "001",
+      "Nom": "empleatx 001",
+      "Carrec": "Caixerx"
+    },
+    {
+      "id_empleatx": "009",
+      "Nom": "empleatx 009",
+      "Carrec": "Venedorx"
+    }
+  ]
+}]
