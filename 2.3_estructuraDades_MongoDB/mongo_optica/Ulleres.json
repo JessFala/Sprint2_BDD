@@ -1,0 +1,45 @@
+[{
+  "_id": {
+    "$oid": "62aedde7eb56758b3d816b49"
+  },
+  "Marca": "Rya-ban",
+  "graduacioEsq": "1.00",
+  "graduacioDret": "0.75",
+  "tipusMuntura": "pasta",
+  "colorMuntura": "negra",
+  "colorVidres": "verd",
+  "preu": "165.00",
+  "Proveidor": "62b87152fa325b380a6cc554",
+  "Clientx": {
+    "id_clientx": "001",
+    "Nom": "Client1",
+    "Address": "passeig client1, 10",
+    "Telefon": "111111111",
+    "correuElectronic": "client1@client1.com",
+    "dataRegistre": "19/06/2022",
+    "Recomanat": "",
+    "Empleatx": "5"
+  }
+},{
+  "_id": {
+    "$oid": "62aedde7eb56758b3d816b4c"
+  },
+  "Marca": "Tous",
+  "graduacioEsq": "1.50",
+  "graduacioDret": "1.75",
+  "tipusMuntura": "pasta",
+  "colorMuntura": "blanca",
+  "colorVidres": "negre",
+  "preu": "250.00",
+  "Proveidor": "62b87e54fa325b380a6cc55f",
+  "Clientx": {
+    "id_clientx": "002",
+    "Nom": "Client2",
+    "Address": "carretera client2, 20, 2-2",
+    "Telefon": "555555555",
+    "correuElectronic": "client2@client2.com",
+    "dataRegistre": "07/01/2022",
+    "Recomanat": "001",
+    "Empleatx": "1"
+  }
+}]
