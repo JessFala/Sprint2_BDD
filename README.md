@@ -15,5 +15,3 @@ Aquí es treballaran les BDD des de les dues vessants més populars: un mode est
     Aprofundir en les bases de dades relacionals amb Mysql i en les no relacionals amb MongoDB.
     Generar correctament els scripts de creació de les bases de dades.
     Fer adequadament consultes per tal d'accedir a les dades.
-
-jytfrytdfrddcrcdrffyty
