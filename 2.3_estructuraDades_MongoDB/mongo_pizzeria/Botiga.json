@@ -8,6 +8,7 @@
   "provincia": "provincia1",
   "empleatx": {
     "nomicognom": "Cris C3",
+    "_id_empleatx": "001",
     "NIF": "78946746",
     "telefon": "678987142",
     "Feina": "repartidorx"
@@ -22,6 +23,7 @@
   "provincia": "provincia2",
   "empleatx": {
     "nomicognom": "Leyvacan",
+    "_id_empleatx": "002",
     "NIF": "38893412C",
     "telefon": "612345673",
     "Feina": "cuinerx"

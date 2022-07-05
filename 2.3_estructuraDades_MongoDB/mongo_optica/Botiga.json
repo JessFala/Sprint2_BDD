@@ -1,57 +1,31 @@
 [{
   "_id": {
-    "$oid": "62b88393fa325b380a6cc577"
+    "$oid": "62b2c6a4472b2797d681f09d"
   },
-  "Adress": "Plaça Major, 56. 08054 Amer (Girona)",
-  "Empleatx": [
-    {
-      "id_empleatx": "001",
-      "Nom": "empleatx1",
-      "Carrec": "Venedorx"
-    },
-    {
-      "id_empleatx": "005",
-      "Nom": "empleatx5",
-      "Carrec": "Venedorx"
-    }
-  ]
+  "address": "adress1",
+  "codipostal": "08100",
+  "localitat": "localitat1",
+  "provincia": "provincia1",
+  "empleatx": {
+    "nomicognom": "Cris C3",
+    "_id_empleatx": "001",
+    "NIF": "78946746",
+    "telefon": "678987142",
+    "Feina": "repartidorx"
+  }
 },{
   "_id": {
-    "$oid": "62b8894afa325b380a6cc578"
+    "$oid": "62b2c87d472b2797d681f09e"
   },
-  "Adress": "Carrer gran, 97. 08045 Tarragona (Tarragona)",
-  "Empleatx": [
-    {
-      "id_empleatx": "002",
-      "Nom": "empleatx2",
-      "Carrec": "Caixerx"
-    },
-    {
-      "id_empleatx": "003",
-      "Nom": "empleatx3",
-      "Carrec": "Venedorx"
-    },
-    {
-      "id_empleatx": "004",
-      "Nom": "empleatx4",
-      "Carrec": "Venedorx"
-    }
-  ]
-},{
-  "_id": {
-    "$oid": "62b88baafa325b380a6cc579"
-  },
-  "Adress": "Plaça Major, 56. 08054 Amer (Girona)",
-  "Empleatx": [
-    {
-      "id_empleatx": "001",
-      "Nom": "empleatx 001",
-      "Carrec": "Caixerx"
-    },
-    {
-      "id_empleatx": "009",
-      "Nom": "empleatx 009",
-      "Carrec": "Venedorx"
-    }
-  ]
+  "address": "adress2",
+  "codipostal": "08200",
+  "localitat": "localitat2",
+  "provincia": "provincia2",
+  "empleatx": {
+    "nomicognom": "Leyvacan",
+    "_id_empleatx": "002",
+    "NIF": "38893412C",
+    "telefon": "612345673",
+    "Feina": "cuinerx"
+  }
 }]

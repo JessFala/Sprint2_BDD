@@ -10,8 +10,8 @@
   "provincia": "prov1",
   "telefon": "123456789",
   "comandes": {
+    "ObjectId": "62b2c6a4472b2797d681f09d",
     "tipus": "Domicili",
-    "empleatx": "Cris C3",
     "dataentrega": "19/06/2022 21:03",
     "productes": [
       {
@@ -40,8 +40,9 @@
   "provincia": "prov2",
   "telefon": "223456789",
   "comandes": {
+    "ObjectId": "62b2c87d472b2797d681f09e",
     "tipus": "Recollir",
-    "empleatx": "Leyvacan",
+    "_id_empleatx": "002",
     "dataentrega": "13/03/2022 22:30",
     "productes": [
       {
