@@ -2,14 +2,14 @@
 db = db.getSiblingDB('optica_mongo');
 
 //Crear col.leccions
-db.createCollection('Proveidorxs');
+/*db.createCollection('Proveidorxs');
 db.createCollection('Ulleres');
 db.createCollection('clientxs');
-
+*/
 //Inserir documents de la col·lecció
-
-db.Proveidorxs.insert(
-  [{
+db.Proveidorxs.drop();
+db.Proveidorxs.insertMany([
+  {
     "_id": {
       "$oid": "62b87152fa325b380a6cc554"
     },
@@ -42,70 +42,70 @@ db.Proveidorxs.insert(
     "NIF": "46712932T",
     "Marca1": "Dior",
     "Marca2": "Vogue"
-  }]
-);
+  }
+]);
 
+db.Ulleres.drop();
+db.Ulleres.insertMany([
+    {
+     "_id": {
+       "$oid": "62aedde7eb56758b3d816b49"
+     },
+     "Marca": "Rya-ban",
+     "graduacioEsq": "1.00",
+     "graduacioDret": "0.75",
+     "tipusMuntura": "pasta",
+     "colorMuntura": "negra",
+     "colorVidres": "verd",
+     "preu": "165.00",
+     "Proveidor": "62b87152fa325b380a6cc554",
+     "Empleatx": [
+       {
+         "_id_empleatx": "001",
+         "Nom": "empleatx1",
+         "Carrec": "Venedorx"
+       },
+       {
+         "_id_empleatx": "005",
+         "Nom": "empleatx5",
+         "Carrec": "Venedorx"
+       },
+       {
+         "_id_empleatx": "002",
+         "Nom": "empleatx2",
+         "Carrec": "Caixerx"
+       }
+     ]
+   }, {
+     "_id": {
+       "$oid": "62aedde7eb56758b3d816b4c"
+     },
+     "Marca": "Tous",
+     "graduacioEsq": "1.50",
+     "graduacioDret": "1.75",
+     "tipusMuntura": "pasta",
+     "colorMuntura": "blanca",
+     "colorVidres": "negre",
+     "preu": "250.00",
+     "Proveidor": "62b87e54fa325b380a6cc55f",
+     "Empleatx": [
+       {
+         "_id_empleatx": "004",
+         "Nom": "empleatx4",
+         "Carrec": "Venedorx"
+       },
+       {
+         "id_empleatx": "002",
+         "Nom": "empleatx2",
+         "Carrec": "Caixerx"
+       }
+     ]
+    }
+  ]);
 
-db.Ulleres.insert {[
-   {
-    "_id": {
-      "$oid": "62aedde7eb56758b3d816b49"
-    },
-    "Marca": "Rya-ban",
-    "graduacioEsq": "1.00",
-    "graduacioDret": "0.75",
-    "tipusMuntura": "pasta",
-    "colorMuntura": "negra",
-    "colorVidres": "verd",
-    "preu": "165.00",
-    "Proveidor": "62b87152fa325b380a6cc554",
-    "Empleatx": [
-      {
-        "_id_empleatx": "001",
-        "Nom": "empleatx1",
-        "Carrec": "Venedorx"
-      },
-      {
-        "_id_empleatx": "005",
-        "Nom": "empleatx5",
-        "Carrec": "Venedorx"
-      },
-      {
-        "_id_empleatx": "002",
-        "Nom": "empleatx2",
-        "Carrec": "Caixerx"
-      }
-    ]
-  },{
-    "_id": {
-      "$oid": "62aedde7eb56758b3d816b4c"
-    },
-    "Marca": "Tous",
-    "graduacioEsq": "1.50",
-    "graduacioDret": "1.75",
-    "tipusMuntura": "pasta",
-    "colorMuntura": "blanca",
-    "colorVidres": "negre",
-    "preu": "250.00",
-    "Proveidor": "62b87e54fa325b380a6cc55f",
-    "Empleatx": [
-      {
-        "_id_empleatx": "004",
-        "Nom": "empleatx4",
-        "Carrec": "Venedorx"
-      },
-      {
-        "id_empleatx": "002",
-        "Nom": "empleatx2",
-        "Carrec": "Caixerx"
-      }
-    ]
-  }]
-}
-
-
-
-    db.clientxs.insert([{
+db.clientxs.drop();
+db.clientxs.insertMany([
+    {
       "_id": {
         "$oid": "62bd4e066d6c5f1c9d262927"
       },
@@ -131,5 +131,5 @@ db.Ulleres.insert {[
         "_id_empleatx": "004",
         "_id ulleres": "62aedde7eb56758b3d816b4c"
       },
-    }]
-    );
+    }
+  ]);
