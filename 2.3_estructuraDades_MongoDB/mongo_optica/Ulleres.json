@@ -9,7 +9,6 @@
   "colorMuntura": "negra",
   "colorVidres": "verd",
   "preu": "165.00",
-  "Proveidor": "62b87152fa325b380a6cc554",
   "Empleatx": [
     {
       "_id_empleatx": "001",
@@ -26,7 +25,8 @@
       "Nom": "empleatx2",
       "Carrec": "Caixerx"
     }
-  ]
+  ],
+  "Proveidorx": "62b87152fa325b380a6cc554"
 },{
   "_id": {
     "$oid": "62aedde7eb56758b3d816b4c"
@@ -38,7 +38,6 @@
   "colorMuntura": "blanca",
   "colorVidres": "negre",
   "preu": "250.00",
-  "Proveidor": "62b87e54fa325b380a6cc55f",
   "Empleatx": [
     {
       "_id_empleatx": "004",
@@ -50,5 +49,6 @@
       "Nom": "empleatx2",
       "Carrec": "Caixerx"
     }
-  ]
+  ],
+  "Proveidorx": "62b87e54fa325b380a6cc55f"
 }]

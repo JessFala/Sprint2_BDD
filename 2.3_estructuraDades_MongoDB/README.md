@@ -6,7 +6,7 @@
 
 3- Con DbCshema he creado el esquema de la BDD y lo he exportado en formato png a la misma carpeta.
 
-4- He abierto esa misma carpeta con el Visual Studio. En este punto aspectos importantes a tener en cuenta:
+4- He abierto esa misma carpeta de trabajo con el Visual Studio. En este punto aspectos importantes a tener en cuenta:
 
   a) $db = db.getSiblingDB('nombre_BDD') --> Esta es la primera línea de código que debemos añadir. 
   

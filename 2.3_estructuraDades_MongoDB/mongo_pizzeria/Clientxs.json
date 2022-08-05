@@ -12,6 +12,7 @@
   "comandes": {
     "ObjectId": "62b2c6a4472b2797d681f09d",
     "tipus": "Domicili",
+    "_id_empleatx": "001",
     "dataentrega": "19/06/2022 21:03",
     "productes": [
       {
