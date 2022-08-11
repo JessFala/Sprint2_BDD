@@ -4,7 +4,7 @@
 
 2- Una vez creadas las colecciones las he exportado en formato .json a una carpeta creada previamente.
 
-3- Con DbCshema he creado el esquema de la BDD y lo he exportado en formato png a la misma carpeta.
+3- He creado el esquema de la BDD y lo he exportado en formato png a la misma carpeta.
 
 4- He abierto esa misma carpeta de trabajo con el Visual Studio Code. En este punto hay cosas importantes a tener en cuenta:
 
