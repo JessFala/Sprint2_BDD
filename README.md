@@ -7,12 +7,12 @@ En l'actualitat, qualsevol organització per petita que sigui, ha de comptar amb
 
 Aquí es treballaran les BDD des de les dues vessants més populars: un mode estàtic, estructurat i vertical amb MySQL i un altre dinàmic, no estructurat i horizontal amb MongoDB.
 
-*Objectiu general
+* Objectiu general:
 
-Aprendre a modelitzar bases de dades i a programar-les.
+  - Aprendre a modelitzar bases de dades i a programar-les.
 
-*Objectius específics
+* Objectius específics:
 
-Aprofundir en les bases de dades relacionals amb Mysql i en les no relacionals amb MongoDB.
-Generar correctament els scripts de creació de les bases de dades.
-Fer adequadament consultes per tal d'accedir a les dades.
+  - Aprofundir en les bases de dades relacionals amb Mysql i en les no relacionals amb MongoDB.
+  - Generar correctament els scripts de creació de les bases de dades.
+  - Fer adequadament consultes per tal d'accedir a les dades.
